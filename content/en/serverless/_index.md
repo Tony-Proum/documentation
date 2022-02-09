@@ -29,14 +29,25 @@ further_reading:
 {{< vimeo 543362476 >}}
 
 
-Serverless is a concept where you write event-driven code and upload it to a cloud provider, which manages all of the underlying computational resources. [Datadog Serverless][1] brings together metrics, traces, and logs from your AWS Lambda functions running serverless applications into one view.
+Serverless is a concept where you write event-driven code and upload it to a cloud provider, which manages all of the underlying computational resources. [Datadog Serverless Monitoring][1] provides full visibility into all of the individual components that support a serverless application by bringing together real-time metrics, logs and traces from your Lambda functions as well as related fully-managed services, such as API Gateway, SQS, SNS, Kinesis, EventBridge, DynamoDB and more.
 
 <div class="alert alert-info">Make sure to check out discussions going on in the <a href="https://datadoghq.slack.com/archives/CFDPB83M4">#serverless</a> channel in the <a href="https://chat.datadoghq.com/">Datadog Slack community</a>.</div>
 
-## Getting started
+## Quick start
 
-Select the Lambda runtime below for instructions to instrument your serverless application.
+If you are new to Datadog, you can get started by [signing up for a Datadog account][5], then navigating to the [agent installation page for Lambda functions][6]. This guide will help you to configure your Lambda functions to send real-time metrics, logs and traces to Datadog using Lambda extensions:
+
+{{< img src="serverless/aws-fully-managed-services-serverless-monitoring-hero.png" alt="Datadog Serverless Monitoring"  style="width:100%;" >}}
+
+## Installation instructions
+
+For more detailed installation instructions, select the Lambda runtime below for instructions to instrument your serverless application.
+
 {{< partial name="serverless/getting-started-languages.html" >}}
+
+## Explore Datadog Serverless Monitoring
+
+abc
 
 ## Other services
 
@@ -68,3 +79,5 @@ Google Cloud Functions is a lightweight, event-based, asynchronous compute solut
 [2]: https://app.datadoghq.com/functions?cloud=azure&config_serverless-azure-app=true&group=service
 [3]: /infrastructure/serverless/azure_app_services/#overview
 [4]: /integrations/google_cloud_platform/
+[5]: https://app.datadoghq.com/signup/
+[6]: https://app.datadoghq.com/signup/agent#lambda
