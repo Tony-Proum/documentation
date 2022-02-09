@@ -28,6 +28,8 @@ further_reading:
 
 {{< vimeo 543362476 >}}
 
+
+
 <div class="alert alert-info">Make sure to check out discussions going on in the <a href="https://datadoghq.slack.com/archives/CFDPB83M4">#serverless</a> channel in the <a href="https://chat.datadoghq.com/">Datadog Slack community</a>.</div>
 
 [Datadog Serverless Monitoring][1] provides full visibility into all of the managed services that power your serverless applications by bringing together real-time metrics, logs and traces from your Lambda functions as well as related fully-managed APIs, queues, streams and data stores.
@@ -60,13 +62,13 @@ Datadog will automatically collect function requests and responses for all of yo
 
 By identifying misconfigurations in failing requests, you can more easily reproduce issues in your development environment—and then run tests to verify your bug fixes.
 
-{{< img src="serverless/lambda-payload-hero.jpeg" alt="Datadog Serverless Monitoring"  style="width:100%;" >}}
+{{< img src="serverless/lambda_payload_hero.jpeg" alt="Datadog Serverless Monitoring"  style="width:100%;" >}}
 
 ### Monitor serverless configuration changes with deployment tracking
 
 Easily correlate serverless code, configuration, and deployment changes with metrics, traces, and logs from your functions for real-time insight into how these changes may affect the health and performance of your applications.
 
-{{< img src="serverless/serverless-deployment-tracking.jpeg" alt="Datadog Serverless Monitoring"  style="width:100%;" >}}
+{{< img src="serverless/serverless_deployment_tracking.jpeg" alt="Datadog Serverless Monitoring"  style="width:100%;" >}}
 
 ## Other serverless clouds
 
