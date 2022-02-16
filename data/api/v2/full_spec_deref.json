@@ -4800,7 +4800,8 @@
             "format": "int64",
             "type": "integer"
           }
-        }
+        },
+        "type": "object"
       },
       "CloudWorkloadSecurityAgentRuleCreateAttributes": {
         "description": "Create a new Cloud Workload Security Agent rule.",
@@ -5047,7 +5048,8 @@
                 "format": "int64",
                 "type": "integer"
               }
-            }
+            },
+            "type": "object"
           },
           "id": {
             "description": "The ID of the Agent rule.",
@@ -5158,7 +5160,8 @@
                     "format": "int64",
                     "type": "integer"
                   }
-                }
+                },
+                "type": "object"
               },
               "id": {
                 "description": "The ID of the Agent rule.",
@@ -5418,7 +5421,8 @@
                       "format": "int64",
                       "type": "integer"
                     }
-                  }
+                  },
+                  "type": "object"
                 },
                 "id": {
                   "description": "The ID of the Agent rule.",
@@ -63147,7 +63151,8 @@
                                 "format": "int64",
                                 "type": "integer"
                               }
-                            }
+                            },
+                            "type": "object"
                           },
                           "id": {
                             "description": "The ID of the Agent rule.",
@@ -63403,7 +63408,8 @@
                               "format": "int64",
                               "type": "integer"
                             }
-                          }
+                          },
+                          "type": "object"
                         },
                         "id": {
                           "description": "The ID of the Agent rule.",
@@ -63775,7 +63781,8 @@
                               "format": "int64",
                               "type": "integer"
                             }
-                          }
+                          },
+                          "type": "object"
                         },
                         "id": {
                           "description": "The ID of the Agent rule.",
@@ -64057,7 +64064,8 @@
                               "format": "int64",
                               "type": "integer"
                             }
-                          }
+                          },
+                          "type": "object"
                         },
                         "id": {
                           "description": "The ID of the Agent rule.",
